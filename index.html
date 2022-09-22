@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Next Cars</title>
+</head>
+
+<body>
+    <!-- header html codes  -->
+    <header>
+        <div class="mobile-container  container">
+
+            <div class="vedio-container">
+                <video autoplay loop muted class="vedio">
+                    <source src="Media/header intro.mp4">
+                </video>
+            </div>
+
+            <nav class="nav">
+                <div class="leftnav">
+                    <a href="index.html"><i class="fab fa-neos"></i></a>
+                </div>
+
+                <div class="rightnav">
+                    <i class="fa fa-bars" onclick="myFunction()"></i>
+
+                    <div class="list-menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">network</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu">
+                        <div class="list-menu" id="myLinks">
+                            <ul>
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">shop</a></li>
+                                <li><a href="#">contact</a></li>
+                                <li><a href="#">network</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <h1>welcome to<br>future</h1>
+                <div class="wrapper">
+                    <svg class="arrow-down arrow-down--scaled">
+                        <path class="a1" d="M10 10 L15 16 L20 10"></path>
+                        <path class="a2" d="M5 15 L15 26 L25 15"></path>
+                        <path class="a3" d="M0 20 L15 36 L30 20"></path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <section class="section">
+        <div class="mobile-container container">
+            <div class="sec-1-content">
+                <h2>we create ultra hybrid cars</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos tempora id delectus esse
+                    consequatur nisi inventore ea, tenetur veritatis architecto sequi numquam corrupti, ab dolores.</p>
+                <button class="btn" type="submit">order now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section-2">
+        <div class="mobile-container container">
+            <!-- Swiper -->
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <!-- <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div> -->
+                </div>
+            </div>
+
+            <!-- Swiper JS -->
+        </div>
+
+        <h2 class="swipertitle">Next Generation Of Hybrid Cars</h2>
+    </section>
+
+
+
+    <div class="ball"></div>
+
+    <script src="Script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+</body>
+
+</html>
